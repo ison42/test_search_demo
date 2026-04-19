@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import './App.css'
+import backgroundImage from '../public/background.png'
 
 const filterCategories = [
   { id: 'service', name: '服务/物流' },
@@ -190,7 +191,7 @@ function App() {
     <div className="app">
       <div className="mobile-container">
         <div className="main-content">
-          <img src="./background.png" alt="背景" className="background-image" />
+          <img src={backgroundImage} alt="背景" className="background-image" />
         </div>
 
         <div className="filter-bar">
