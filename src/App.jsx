@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import './App.css'
-import backgroundImage from '../public/background.png'
+import backgroundImage from './assets/background.png'
 
 const filterCategories = [
   { id: 'service', name: '服务/物流' },
