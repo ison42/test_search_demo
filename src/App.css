@@ -9,12 +9,24 @@
 }
 
 .mobile-container {
-  width: 375px;
+  width: 100%;
   height: 100%;
   position: relative;
   background: white;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .mobile-container {
+    width: 375px;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal-container {
+    max-width: 100%;
+  }
 }
 
 .main-content {
