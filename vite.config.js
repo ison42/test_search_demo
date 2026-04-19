@@ -5,6 +5,5 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000
-  },
-  base: '/test_search_demo/'
+  }
 })

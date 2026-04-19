@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import './App.css'
-import backgroundImage from './assets/background.png'
+const backgroundImage = new URL('./assets/background.png', import.meta.url).href
 
 const filterCategories = [
   { id: 'service', name: '服务/物流' },
