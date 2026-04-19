@@ -190,7 +190,7 @@ function App() {
     <div className="app">
       <div className="mobile-container">
         <div className="main-content">
-          <img src="./background.png" alt="背景" className="background-image" />
+          <img src="/background.png" alt="背景" className="background-image" />
         </div>
 
         <div className="filter-bar">
